@@ -1,0 +1,1 @@
+web: gunicorn mytab.wsgi --log-file -

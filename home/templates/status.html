@@ -1,0 +1,71 @@
+<br>
+<div class="row">
+
+    <div class="col">
+        <div class="col-md">
+            <div class="card text-center mb3" id="total-tabungan">
+                <div class="card-header">
+                    <h3 class="card-title">Saldo Awal</h3>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        {{saldo.nominal}}
+                  
+                    </h4>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    <div class="col">
+        <div class="col-md">
+            <div class="card text-center mb3" id="tabungan">
+                <div class="card-header">
+                    <h3 class="card-title">Pengeluaran</h3>
+                </div>
+                <div class="card-body">
+                    <h4 class="card-title">
+                        Hari ini : {{pengeluaran_day.nominal__sum}}
+                    </h4>
+                    <h4 class="card-title">
+                        Bulan ini :  {{pengeluaran_month.nominal__sum}}
+                    </h4>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="col">
+            <div class="col-md">
+                <div class="card text-center mb3" id="sisa-tabungan">
+                    <div class="card-header">
+                        <h3 class="card-title">Sisa Saldo</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            {{sisa}}
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+    <div class="col">
+    <div class="col-md">
+        <div class="card text-center mb3" id="total-pinjaman">
+            <div class="card-header">
+                <h3 class="card-title">Pinjaman</h3>
+            </div>
+            <div class="card-body">
+                <h4 class="card-title">
+                    Total : {{tot_pinjam.nominal__sum}} 
+                </h4>
+                <h4 class="card-title">
+                    Sisa : {{sisa_pinjam}} 
+                </h4>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</div>
